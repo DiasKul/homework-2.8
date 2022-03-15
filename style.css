@@ -1,0 +1,25 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	gap: 40px;
+}
+#divColor{
+	width: 150px;
+	height: 150px;
+}
+#btnIncrease{
+	width: 90px;
+	height: 40px;
+}
+#divCoords{
+	width: 500px;
+	height: 500px;
+	background: gray;
+}
+#inpColor{
+	width: 300px;
+	height: 20px;
+}
