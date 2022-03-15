@@ -42,7 +42,7 @@ btnIncrease.addEventListener('mousedown', e => {
 
 // Задание №3 Создайте div размером 500px * 500px, по нажатию на нее выводите в консоль позицию места куда вы нажали относительно div-a;
 
-divCoords.addEventListener('mousemove', e => {
+divCoords.addEventListener('mousedown', e => {
 	console.log(`X - ${e.clientX} -- Y - ${e.clientY}`);
 })
 
